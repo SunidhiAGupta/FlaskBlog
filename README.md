@@ -11,5 +11,10 @@ When you make any changes to your app and reload it, app will not show any chang
  if __name__== '__main__':
         app.run(debug=True)
 ```
+## 'templates' folder
+To get rid of writing HTML code within the route funtion, we create a template Folder.
+This folder cntains all the HTML files for each of the route functions.
 
+## render_template()
+This function is used to render html files from templates folder in your flask app.
 
